@@ -1,8 +1,8 @@
-### Projeto React Native
+# Projeto React Native
 
 Este é um projeto React Native utilizando o Fluxo de Trabalho do Expo Manager, com apenas uma tela onde você pode cadastrar e remover participantes.
 
-# Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
     Node.js
     Expo CLI
@@ -11,38 +11,44 @@ Este é um projeto React Native utilizando o Fluxo de Trabalho do Expo Manager, 
 
 Siga as orientações de acordo com o seu sistema operacional e tecnologia para emular a aplicação:
 
-    Para ambiente Windows ou Linux, siga as instruções em: https://react-native.rocketseat.dev/
-    Para ambiente macOS ou iOS, siga as instruções em: https://reactnative-dev.translate.goog/docs/environment-setup?os=macos&platform=ios&_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_hist=true
+Para ambiente Windows ou Linux, siga as instruções em: https://react-native.rocketseat.dev/
+Para ambiente macOS ou iOS, siga as instruções em: https://reactnative-dev.translate.goog/docs/environment-setup?os=macos&platform=ios&_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_hist=true
 
 ## Fluxo de Trabalho do Expo Manager
 
 Para iniciar o projeto utilizando o Expo Manager, siga os passos abaixo:
 
-    Execute o comando
+Execute o comando
 
 ```bash
-    $ npx create-expo-app my-app
+$ npx create-expo-app my-app
 ```
 
-    ou
+ou
 
 ```bash
-    $ npm install -g create-expo-app
+$ npm install -g create-expo-app
 ```
 
-    para instalar o Expo CLI globalmente.
-    Em seguida, execute
+para instalar o Expo CLI globalmente.
+Em seguida, execute
 
 ```bash
-    $ expo init imhere --npm
+$ expo init imhere --npm
 ```
 
-    para criar um novo projeto com o nome "imhere".
-    Durante a criação do projeto, você será solicitado a selecionar um template. Escolha o template "Manager workflow - blank (TypeScript)".
-    Após a criação do projeto, abra-o no seu editor de código preferido. Caso a pasta "node_modules" não tenha sido criada automaticamente, abra um terminal, navegue até a pasta raiz do projeto e execute o comando
+para criar um novo projeto com o nome "imhere".
+
+Durante a criação do projeto, você será solicitado a selecionar um template. Escolha o template "Manager workflow - blank (TypeScript)". Caso ocorrer algum probelma com a instalação do TypeScript, utilize o comando abaixo, para instalar as dependências necessárias
 
 ```bash
-    $ npm install
+$ npm install --save @types/react-native
+```
+
+Após a criação do projeto, abra-o no seu editor de código preferido. Caso a pasta "node_modules" não tenha sido criada automaticamente, abra um terminal, navegue até a pasta raiz do projeto e execute o comando
+
+```bash
+$ npm install
 ```
 
 ## Executando o Projeto
